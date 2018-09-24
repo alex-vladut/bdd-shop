@@ -1,6 +1,0 @@
-#org.jbehave.core.embedder.StoryManager
-#Mon Dec 12 21:49:55 EET 2016
-example/bdd/shop/acceptance/test/search_products_by_category.story=0
-threads=1
-total=0
-threadAverage=0

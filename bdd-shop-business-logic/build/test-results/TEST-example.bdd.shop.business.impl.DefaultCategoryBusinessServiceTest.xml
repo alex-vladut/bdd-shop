@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.bdd.shop.business.impl.DefaultCategoryBusinessServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-07-11T19:14:48" hostname="alex-Lenovo-G50-70" time="0.165">
-  <properties/>
-  <testcase name="shouldFindAllCategories" classname="example.bdd.shop.business.impl.DefaultCategoryBusinessServiceTest" time="0.165"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
