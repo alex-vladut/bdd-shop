@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.bdd.shop.persistence.jdbc.JdbcCategoryRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-07-11T19:14:50" hostname="alex-Lenovo-G50-70" time="0.275">
+  <properties/>
+  <testcase name="shouldFindCategoryById_withExistingId" classname="example.bdd.shop.persistence.jdbc.JdbcCategoryRepositoryTest" time="0.25"/>
+  <testcase name="shouldNotFindCategoryById_withPersistenceExceptionThrown" classname="example.bdd.shop.persistence.jdbc.JdbcCategoryRepositoryTest" time="0.023"/>
+  <testcase name="shouldNotFindCategoryById_withNonExistentId" classname="example.bdd.shop.persistence.jdbc.JdbcCategoryRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

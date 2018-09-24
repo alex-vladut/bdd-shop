@@ -1,0 +1,16 @@
+apply from: "$rootDir/dependencies.gradle";
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+	
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories { mavenCentral() }
+    
+    version = '1.0'
+
+    jar { manifest.attributes provider: 'Behavior Driven Development' }
+    
+}

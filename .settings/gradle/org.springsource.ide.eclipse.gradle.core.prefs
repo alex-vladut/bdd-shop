@@ -1,0 +1,6 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Tue Jul 12 21:59:20 EEST 2016
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;bdd-shop-acceptance-test;bdd-shop-business-logic;bdd-shop-domain-model;bdd-shop-persistence;bdd-shop-rest;
+org.springsource.ide.eclipse.gradle.classpath.enableSorting=true
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=

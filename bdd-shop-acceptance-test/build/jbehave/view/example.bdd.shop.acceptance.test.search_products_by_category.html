@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>example.bdd.shop.acceptance.test.search_products_by_category</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+
+<html>
+<body>
+<div class="story"><h1>A user should be able to search all the products in a category<br/><br/>Narative:<br/>In order to find the products I need in an easy way<br/>As a user<br/>I want to be able to search the products by category</h1>
+<div class="path">example/bdd/shop/acceptance/test/search_products_by_category.story</div>
+<div class="scenario"><h2>Scenario: Searching all the products in a category</h2>   
+ <!-- normal scenario steps -->
+<div class="step successful">Given the categories &quot;Peripheral devices&quot; and &quot;Connectors&quot; are defined </div>
+
+<div class="step successful">And the following products exist in the system:
+ <span class="step parameter"><table>
+<thead><tr>
+<th>Name</th>
+<th>Specifications</th>
+<th>Category</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>USB 3.0 cable</td>
+<td>Length:3 m</td>
+<td>Connectors</td>
+</tr>
+<tr>
+<td>Wireless Mouse</td>
+<td>Dimensions:2.6x1.6x4 inches</td>
+<td>Peripheral devices</td>
+</tr>
+<tr>
+<td>Wireless Keyboard</td>
+<td>Dimensions:20.6x6.2x2 inches; OS: Win 8</td>
+<td>Peripheral devices</td>
+</tr>
+<tr>
+<td>HDMI cable</td>
+<td>Length:4 m</td>
+<td>Connectors</td>
+</tr>
+</tbody>
+</table>
+</span> </div>
+
+<div class="step successful">When a user searches all the products in the &quot;Peripheral devices&quot; category </div>
+
+<div class="step successful">Then the following products are returned: 
+ <span class="step parameter"><table>
+<thead><tr>
+<th>Name</th>
+<th>Specifications</th>
+<th>Category</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Wireless Mouse</td>
+<td>Dimensions:2.6x1.6x4 inches</td>
+<td>Peripheral devices</td>
+</tr>
+<tr>
+<td>Wireless Keyboard</td>
+<td>Dimensions:20.6x6.2x2 inches; OS: Win 8</td>
+<td>Peripheral devices</td>
+</tr>
+</tbody>
+</table>
+</span> </div>
+
+</div> <!-- end scenario -->
+</div> <!-- end story -->
+</body>
+</html>
+
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

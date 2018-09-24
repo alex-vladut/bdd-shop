@@ -1,0 +1,37 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'org.akhikhl.gretty'
+
+dependencies {
+	compile project(':bdd-shop-business-logic')
+	compile project(':bdd-shop-domain-model')
+
+	compile libraries.spring.mvc
+	compile libraries.jackson_mapper
+
+	providedCompile libraries.javax_servlet
+
+	testCompile libraries.testing.junit, libraries.testing.hamcrest, libraries.testing.mockito, libraries.testing.apache_commons
+}
+
+buildscript {
+	repositories { jcenter() }
+
+	dependencies { classpath 'org.akhikhl.gretty:gretty:+' }
+}
+
+gretty {
+	port = 8080
+	contextPath = 'shop'
+	servletContainer = 'jetty9'
+	jvmArgs = [
+		'-Dspring.profiles.active=test'
+	]
+}
+
+eclipse {
+	wtp {
+		component { contextPath = 'shop' }
+	}
+}

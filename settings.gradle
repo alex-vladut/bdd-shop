@@ -1,0 +1,5 @@
+include 'bdd-shop-acceptance-test'
+include 'bdd-shop-rest'
+include 'bdd-shop-business-logic'
+include 'bdd-shop-persistence'
+include 'bdd-shop-domain-model'

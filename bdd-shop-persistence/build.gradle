@@ -1,0 +1,8 @@
+dependencies {
+	compile project(':bdd-shop-domain-model')
+	
+	compile libraries.spring.context, libraries.spring.jdbc
+	runtime libraries.db_connector, libraries.data_source
+	
+	testCompile libraries.testing.junit, libraries.testing.hamcrest, libraries.testing.mockito, libraries.testing.apache_commons
+}

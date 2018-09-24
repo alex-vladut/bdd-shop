@@ -1,0 +1,6 @@
+dependencies {
+	compile project(':bdd-shop-persistence')
+	compile project(':bdd-shop-domain-model')
+	
+	testCompile libraries.testing.junit, libraries.testing.hamcrest, libraries.testing.mockito, libraries.testing.apache_commons
+}

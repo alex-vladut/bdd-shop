@@ -1,0 +1,17 @@
+dependencies {
+	testCompile project(':bdd-shop-rest')
+	testCompile libraries.testing.jbehave, libraries.spring.test, libraries.gson
+}
+
+sourceSets {
+	test { resources { srcDir 'src/test/stories' } }
+}
+
+task acceptanceTest(type: Test) {
+	testLogging { showStandardStreams = true }
+	outputs.dir 'target'
+	if (project.properties.containsKey("metaFilter")) {
+		systemProperty "meta.filter", metaFilter
+	}
+}
+
